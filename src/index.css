@@ -57,10 +57,11 @@ body {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   background: #f5f0f0;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -72,3 +73,9 @@ header .top-strip {
 .link:hover{color: #ff3b3b;}
 
 .MuiBadge-badge{background-color: #ff5252 !important;}
+
+nav ul button{
+  text-transform: capitalize !important;
+}
+
+nav ul button:hover {background: none !important;}

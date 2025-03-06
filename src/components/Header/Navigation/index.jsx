@@ -21,55 +21,100 @@ const Navigation = () => {
           <ul className="flex items-center gap-5">
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Home
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Home
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Supermarket Supplies
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Supermarket
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Electronics
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Electronics
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Kitchen
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Kitchen
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Furniture
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Furniture
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Fashion
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Fashion
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Liquor Store
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Liquor
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Pharmacy
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Pharmacy
+                </Button>
               </Link>
             </li>
 
             <li className="list-none">
               <Link to="/" className="link transition text-[14px] font-[500]">
-                Garage
+                <Button
+                  className="link transition !font-[500] !text-text-primary
+                hover:!text-primary"
+                >
+                  Garage
+                </Button>
               </Link>
             </li>
           </ul>
