@@ -446,6 +446,718 @@ const CategoryPanel = (props) => {
 
             {/* Add other Electronics subcategories here... */}
           </CategoryItem>
+
+          {/* Electronics Category */}
+          <CategoryItem
+            index={21}
+            label="Electronics"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Mobile Phones & Accessories */}
+            <CategoryItem
+              index={22}
+              label="Phones & Accessories"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/android-phones" label="Android Phones" />
+              <SubCategoryItem
+                to="/new-android-phones"
+                label="New Android Phones"
+              />
+              <SubCategoryItem
+                to="/refurbished-android-phones"
+                label="Refurbished Phones"
+              />
+              <SubCategoryItem to="/iphones" label="iPhones" />
+              <SubCategoryItem to="/new-iphones" label="New iPhones" />
+              <SubCategoryItem
+                to="/refurbished-iphones"
+                label="Refurbished iPhones"
+              />
+              <SubCategoryItem
+                to="/phone-cases-covers"
+                label="Phone Cases & Covers"
+              />
+              <SubCategoryItem
+                to="/screen-protectors"
+                label="Screen Protectors"
+              />
+              <SubCategoryItem
+                to="/chargers-adapters"
+                label="Chargers & Adapters"
+              />
+              <SubCategoryItem to="/power-banks" label="Power Banks" />
+              <SubCategoryItem
+                to="/wireless-earbuds-headphones"
+                label="Earbuds & Headphones"
+              />
+              <SubCategoryItem
+                to="/smartwatches-wearables"
+                label="Smartwatches/Wearables"
+              />
+              <SubCategoryItem
+                to="/phone-holders-mounts"
+                label="Phone Holders & Mounts"
+              />
+              <SubCategoryItem
+                to="/replacement-parts-repairs"
+                label="Phone Repair Parts"
+              />
+            </CategoryItem>
+
+            {/* Laptops & Computers */}
+            <CategoryItem
+              index={23}
+              label="Laptops & Computers"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/macbooks" label="MacBooks" />
+              <SubCategoryItem to="/new-macbooks" label="New MacBooks" />
+              <SubCategoryItem
+                to="/refurbished-macbooks"
+                label="Refurbished MacBooks"
+              />
+              <SubCategoryItem to="/windows-laptops" label="Windows Laptops" />
+              <SubCategoryItem
+                to="/new-windows-laptops"
+                label="New Windows Laptops"
+              />
+              <SubCategoryItem
+                to="/refurbished-windows-laptops"
+                label="Refurbished Laptops"
+              />
+              <SubCategoryItem
+                to="/desktop-computers"
+                label="Desktop Computers"
+              />
+              <SubCategoryItem
+                to="/computer-monitors"
+                label="Computer Monitors"
+              />
+              <SubCategoryItem to="/keyboards-mice" label="Keyboards & Mice" />
+              <SubCategoryItem
+                to="/laptop-bags-sleeves"
+                label="Laptop Bags & Sleeves"
+              />
+              <SubCategoryItem
+                to="/external-hard-drives-ssds"
+                label="Hard Drives & SSDs"
+              />
+              <SubCategoryItem
+                to="/usb-flash-drives"
+                label="USB Flash Drives"
+              />
+              <SubCategoryItem to="/memory-cards" label="Memory Cards" />
+              <SubCategoryItem
+                to="/laptop-chargers-batteries"
+                label="Chargers & Batteries"
+              />
+              <SubCategoryItem
+                to="/cooling-pads-stands"
+                label="Cooling Pads & Stands"
+              />
+            </CategoryItem>
+
+            {/* Tablets & E-Readers */}
+            <CategoryItem
+              index={24}
+              label="Tablets & E-Readers"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/new-tablets" label="New Tablets" />
+              <SubCategoryItem
+                to="/refurbished-tablets"
+                label="Refurbished Tablets"
+              />
+              <SubCategoryItem to="/ipads" label="iPads" />
+              <SubCategoryItem to="/android-tablets" label="Android Tablets" />
+              <SubCategoryItem to="/stylus-pens-tablet" label="Stylus Pens" />
+              <SubCategoryItem to="/keyboards" label="Tablet Keyboards" />
+              <SubCategoryItem to="/e-readers" label="E-Readers" />
+            </CategoryItem>
+
+            {/* Gaming & Accessories */}
+            <CategoryItem
+              index={25}
+              label="Gaming & Accessories"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/gaming-laptops-pcs"
+                label="Gaming Laptops & PCs"
+              />
+              <SubCategoryItem to="/gaming-consoles" label="Gaming Consoles" />
+              <SubCategoryItem
+                to="/gaming-controllers-keyboards"
+                label="Controllers & Keyboards"
+              />
+              <SubCategoryItem to="/vr-headsets" label="VR Headsets" />
+              <SubCategoryItem
+                to="/gaming-chairs-desks"
+                label="Gaming Chairs & Desks"
+              />
+              <SubCategoryItem
+                to="/streaming-capture-cards"
+                label="Streaming/Capture Cards"
+              />
+              <SubCategoryItem to="/gaming-monitors" label="Gaming Monitors" />
+              <SubCategoryItem
+                to="/game-discs-digital-codes"
+                label="Game Discs/Digital Codes"
+              />
+            </CategoryItem>
+
+            {/* Audio & Headphones */}
+            <CategoryItem
+              index={26}
+              label="Audio & Headphones"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/bluetooth-speakers"
+                label="Bluetooth Speakers"
+              />
+              <SubCategoryItem
+                to="/home-theater-systems"
+                label="Home Theater Systems"
+              />
+              <SubCategoryItem to="/headphones" label="Headphones" />
+              <SubCategoryItem
+                to="/earbuds-earphones"
+                label="Earbuds & Earphones"
+              />
+              <SubCategoryItem
+                to="/soundbars-subwoofers"
+                label="Soundbars & Subwoofers"
+              />
+              <SubCategoryItem to="/microphones" label="Microphones" />
+            </CategoryItem>
+
+            {/* Add other Electronics subcategories here... */}
+          </CategoryItem>
+
+          {/* Kitchen Category */}
+          <CategoryItem
+            index={30}
+            label="Kitchen"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Kitchen Appliances */}
+            <CategoryItem
+              index={31}
+              label="Kitchen Appliances"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/blenders" label="Blenders" />
+              <SubCategoryItem
+                to="/food-processors-choppers"
+                label="Food Processors/Choppers"
+              />
+              <SubCategoryItem
+                to="/juicers-extractors"
+                label="Juicers & Extractors"
+              />
+              <SubCategoryItem to="/coffee-makers" label="Coffee Makers" />
+              <SubCategoryItem
+                to="/electric-kettles"
+                label="Electric Kettles"
+              />
+              <SubCategoryItem
+                to="/rice-cookers-steamers"
+                label="Rice Cookers & Steamers"
+              />
+              <SubCategoryItem
+                to="/air-fryers-deep-fryers"
+                label="Air & Deep Fryers"
+              />
+              <SubCategoryItem
+                to="/toasters-sandwich-makers"
+                label="Toasters/Sandwich Makers"
+              />
+              <SubCategoryItem
+                to="/microwaves-ovens"
+                label="Microwaves & Ovens"
+              />
+              <SubCategoryItem
+                to="/induction-cooktops-stoves"
+                label="Induction Cooktops/Stoves"
+              />
+              <SubCategoryItem
+                to="/slow-cookers-multi-cookers"
+                label="Slow & Multi Cookers"
+              />
+              <SubCategoryItem to="/dishwashers" label="Dishwashers" />
+              <SubCategoryItem
+                to="/water-purifiers-dispensers"
+                label="Water Purifiers/Dispensers"
+              />
+            </CategoryItem>
+
+            {/* Cookware & Bakeware */}
+            <CategoryItem
+              index={32}
+              label="Cookware & Bakeware"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/pots-pans" label="Pots & Pans" />
+              <SubCategoryItem
+                to="/casseroles-dutch-ovens"
+                label="Casseroles & Dutch Ovens"
+              />
+              <SubCategoryItem
+                to="/pressure-cookers"
+                label="Pressure Cookers"
+              />
+              <SubCategoryItem
+                to="/woks-stir-fry-pans"
+                label="Woks & Stir-Fry Pans"
+              />
+              <SubCategoryItem
+                to="/baking-trays-cake-pans"
+                label="Baking Trays & Cake Pans"
+              />
+              <SubCategoryItem
+                to="/muffin-cupcake-trays"
+                label="Muffin & Cupcake Trays"
+              />
+              <SubCategoryItem
+                to="/pizza-stones-trays"
+                label="Pizza Stones & Trays"
+              />
+              <SubCategoryItem
+                to="/measuring-cups-spoons"
+                label="Measuring Cups & Spoons"
+              />
+              <SubCategoryItem to="/mixing-bowls" label="Mixing Bowls" />
+              <SubCategoryItem
+                to="/baking-equipment"
+                label="Baking Equipment"
+              />
+            </CategoryItem>
+
+            {/* Kitchen Utensils & Tools */}
+            <CategoryItem
+              index={33}
+              label="Kitchen Utensils & Tools"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/knives-knife-sets"
+                label="Knives & Knife Sets"
+              />
+              <SubCategoryItem to="/cutting-boards" label="Cutting Boards" />
+              <SubCategoryItem
+                to="/peelers-graters-zesters"
+                label="Peelers, Graters & Zesters"
+              />
+              <SubCategoryItem to="/spatulas-tongs" label="Spatulas & Tongs" />
+              <SubCategoryItem to="/whisks-mashers" label="Whisks & Mashers" />
+              <SubCategoryItem
+                to="/measuring-cups-spoons"
+                label="Measuring Cups & Spoons"
+              />
+              <SubCategoryItem
+                to="/colanders-strainers"
+                label="Colanders & Strainers"
+              />
+              <SubCategoryItem
+                to="/can-bottle-openers"
+                label="Can & Bottle Openers"
+              />
+              <SubCategoryItem
+                to="/kitchen-scissors-shears"
+                label="Kitchen Scissors & Shears"
+              />
+              <SubCategoryItem
+                to="/meat-tenderizers"
+                label="Meat Tenderizers"
+              />
+              <SubCategoryItem
+                to="/marinade-injectors"
+                label="Marinade Injectors"
+              />
+            </CategoryItem>
+
+            {/* Tableware & Dining Essentials */}
+            <CategoryItem
+              index={34}
+              label="Tableware & Dining"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/dinner-sets-plates"
+                label="Dinner Sets & Plates"
+              />
+              <SubCategoryItem
+                to="/bowls-serving-dishes"
+                label="Bowls & Serving Dishes"
+              />
+              <SubCategoryItem to="/cutlery-sets" label="Cutlery Sets" />
+              <SubCategoryItem to="/glasses-mugs" label="Glasses & Mugs" />
+              <SubCategoryItem
+                to="/table-mats-coasters"
+                label="Table Mats & Coasters"
+              />
+              <SubCategoryItem
+                to="/serving-trays-platters"
+                label="Serving Trays & Platters"
+              />
+              <SubCategoryItem
+                to="/salt-pepper-shakers"
+                label="Salt & Pepper Shakers"
+              />
+              <SubCategoryItem
+                to="/water-jugs-pitchers"
+                label="Water Jugs & Pitchers"
+              />
+            </CategoryItem>
+
+            {/* Food Storage & Organization */}
+            <CategoryItem
+              index={35}
+              label="Food Storage"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/food-containers" label="Food Containers" />
+              <SubCategoryItem
+                to="/spice-racks-organizers"
+                label="Spice Racks & Organizers"
+              />
+              <SubCategoryItem to="/bread-boxes" label="Bread Boxes" />
+              <SubCategoryItem
+                to="/water-bottles-flasks"
+                label="Water Bottles & Flasks"
+              />
+              <SubCategoryItem to="/lunch-boxes" label="Lunch Boxes" />
+              <SubCategoryItem
+                to="/refrigerator-storage"
+                label="Refrigerator Storage"
+              />
+              <SubCategoryItem
+                to="/cling-film-aluminum-foil"
+                label="Cling Film & Aluminum Foil"
+              />
+              <SubCategoryItem
+                to="/kitchen-canisters-jars"
+                label="Kitchen Canisters & Jars"
+              />
+            </CategoryItem>
+
+            {/* Cleaning & Maintenance */}
+            <CategoryItem
+              index={36}
+              label="Cleaning & Maintenance"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/detergents-soaps"
+                label="Detergents & Soaps"
+              />
+              <SubCategoryItem
+                to="/scrubbers-sponges"
+                label="Scrubbers & Sponges"
+              />
+              <SubCategoryItem
+                to="/garbage-bins-trash-bags"
+                label="Garbage Bins & Trash Bags"
+              />
+              <SubCategoryItem
+                to="/cleaning-cloths-towels"
+                label="Cleaning Cloths & Towels"
+              />
+              <SubCategoryItem to="/air-fresheners" label="Air Fresheners" />
+            </CategoryItem>
+
+            {/* Add other Kitchen subcategories here... */}
+          </CategoryItem>
+
+          {/* Furniture Category */}
+          <CategoryItem
+            index={40}
+            label="Furniture"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Living Room Furniture */}
+            <CategoryItem
+              index={41}
+              label="Living Room Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/sofas-couches" label="Sofas & Couches" />
+              <SubCategoryItem
+                to="/recliners-lounge-chairs"
+                label="Recliners & Lounge Chairs"
+              />
+              <SubCategoryItem
+                to="/coffee-tables-side-tables"
+                label="Coffee & Side Tables"
+              />
+              <SubCategoryItem
+                to="/tv-stands-media"
+                label="TV Stands & Media"
+              />
+              <SubCategoryItem
+                to="/book-display-shelves"
+                label="Books & Display Shelves"
+              />
+              <SubCategoryItem to="/ottomans-poufs" label="Ottomans & Poufs" />
+              <SubCategoryItem
+                to="/entertainment-units"
+                label="Entertainment Units"
+              />
+              <SubCategoryItem
+                to="/room-dividers-partitions"
+                label="Room Dividers & Partitions"
+              />
+            </CategoryItem>
+
+            {/* Bedroom Furniture */}
+            <CategoryItem
+              index={42}
+              label="Bedroom Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/beds" label="Beds" />
+              <SubCategoryItem
+                to="/mattresses-bed-frames"
+                label="Mattresses & Bed Frames"
+              />
+              <SubCategoryItem to="/nightstands" label="Nightstands" />
+              <SubCategoryItem to="/bedside-tables" label="Bedside Tables" />
+              <SubCategoryItem
+                to="/wardrobes-closets"
+                label="Wardrobes & Closets"
+              />
+              <SubCategoryItem to="/dressers" label="Dressers" />
+              <SubCategoryItem
+                to="/chest-of-drawers"
+                label="Chest of Drawers"
+              />
+              <SubCategoryItem
+                to="/makeup-vanities-mirrors"
+                label="Makeup Vanities & Mirrors"
+              />
+              <SubCategoryItem
+                to="/bunk-beds-loft-beds"
+                label="Bunk Beds & Loft Beds"
+              />
+              <SubCategoryItem
+                to="/underbed-drawers"
+                label="Underbed Drawers"
+              />
+              <SubCategoryItem to="/storage-beds" label="Storage Beds" />
+            </CategoryItem>
+
+            {/* Dining Room Furniture */}
+            <CategoryItem
+              index={43}
+              label="Dining Room Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/dining-tables" label="Dining Tables" />
+              <SubCategoryItem
+                to="/dining-chairs-benches"
+                label="Dining Chairs & Benches"
+              />
+              <SubCategoryItem to="/counter-chairs" label="Counter Chairs" />
+              <SubCategoryItem to="/bar-stools" label="Bar Stools" />
+              <SubCategoryItem
+                to="/china-cabinets-buffets"
+                label="China Cabinets & Buffets"
+              />
+              <SubCategoryItem to="/sideboards" label="Sideboards" />
+            </CategoryItem>
+
+            {/* Office & Study Furniture */}
+            <CategoryItem
+              index={44}
+              label="Office & Study Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/office-desks-workstations"
+                label="Office Desks/Workstations"
+              />
+              <SubCategoryItem
+                to="/office-chairs-ergonomic-chairs"
+                label="Office & Ergonomic Chairs"
+              />
+              <SubCategoryItem
+                to="/bookshelves-file-cabinets"
+                label="Bookshelves & Cabinets"
+              />
+              <SubCategoryItem
+                to="/conference-tables"
+                label="Conference Tables"
+              />
+              <SubCategoryItem
+                to="/meeting-room-furniture"
+                label="Meeting Room Furniture"
+              />
+              <SubCategoryItem
+                to="/standing-desks-adjustable-desks"
+                label="Standing/Adjustable Desks"
+              />
+              <SubCategoryItem to="/lounge-seating" label="Lounge Seating" />
+              <SubCategoryItem to="/reception-desks" label="Reception Desks" />
+            </CategoryItem>
+
+            {/* Outdoor & Patio Furniture */}
+            <CategoryItem
+              index={45}
+              label="Outdoor & Patio Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/patio-tables-chairs"
+                label="Patio Tables & Chairs"
+              />
+              <SubCategoryItem
+                to="/garden-benches-swings"
+                label="Garden Benches & Swings"
+              />
+              <SubCategoryItem to="/outdoor-sofas" label="Outdoor Sofas" />
+              <SubCategoryItem to="/daybeds" label="Daybeds" />
+              <SubCategoryItem
+                to="/umbrellas-shade-canopies"
+                label="Umbrellas/Shade"
+              />
+              <SubCategoryItem to="/picnic-tables" label="Picnic Tables" />
+              <SubCategoryItem to="/folding-chairs" label="Folding Chairs" />
+              <SubCategoryItem to="/hanging-chairs" label="Hanging Chairs" />
+              <SubCategoryItem to="/hammocks" label="Hammocks" />
+            </CategoryItem>
+
+            {/* Kids’ Furniture */}
+            <CategoryItem
+              index={46}
+              label="Kids’ Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/kids-beds-cribs"
+                label="Kids’ Beds & Cribs"
+              />
+              <SubCategoryItem
+                to="/study-desks-chairs"
+                label="Study Desks & Chairs"
+              />
+              <SubCategoryItem to="/toy-storage" label="Toy Storage" />
+              <SubCategoryItem
+                to="/playroom-tables-chairs"
+                label="Playroom Tables & Chairs"
+              />
+              <SubCategoryItem to="/changing-tables" label="Changing Tables" />
+              <SubCategoryItem to="/dressers" label="Dressers" />
+            </CategoryItem>
+
+            {/* Storage & Organization */}
+            <CategoryItem
+              index={47}
+              label="Storage & Organization"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/shoe-racks" label="Shoe Racks" />
+              <SubCategoryItem
+                to="/storage-cabinets"
+                label="Storage Cabinets"
+              />
+              <SubCategoryItem
+                to="/closet-organizers"
+                label="Closet Organizers"
+              />
+              <SubCategoryItem to="/shelving-units" label=" Shelving Units" />
+              <SubCategoryItem
+                to="/coat-stands-wall-hooks"
+                label="Coat Stands & Wall Hooks"
+              />
+              <SubCategoryItem to="/folding-tables" label="Folding Tables" />
+              <SubCategoryItem
+                to="/stackable-chairs"
+                label="Stackable Chairs"
+              />
+              <SubCategoryItem
+                to="/storage-boxes-bins"
+                label="Storage Boxes & Bins"
+              />
+            </CategoryItem>
+
+            {/* Home Decor & Accessories */}
+            <CategoryItem
+              index={48}
+              label="Home Decor & Accessories"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/mirrors-wall-decor"
+                label="Mirrors & Wall Decor"
+              />
+              <SubCategoryItem to="/rugs-carpets" label="Rugs & Carpets" />
+              <SubCategoryItem
+                to="/curtains-blinds"
+                label="Curtains & Blinds"
+              />
+              <SubCategoryItem
+                to="/decorative-shelves"
+                label="Decorative Shelves"
+              />
+              <SubCategoryItem
+                to="/lamps-lighting-fixtures"
+                label="Lamps & Lighting Fixtures"
+              />
+            </CategoryItem>
+
+            {/* Second-Hand Furniture Specials */}
+            <CategoryItem
+              index={49}
+              label="Second-Hand Furniture"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/antique-vintage"
+                label="Antique & Vintage"
+              />
+              <SubCategoryItem
+                to="/hotel-liquidation-furniture"
+                label="Hotel Liquidation Furniture"
+              />
+              <SubCategoryItem
+                to="/office-business-clearance"
+                label="Office/Business Clearance"
+              />
+              <SubCategoryItem
+                to="/used-home-furniture"
+                label="Used Home Furniture"
+              />
+              <SubCategoryItem
+                to="/repurposed-upcycled"
+                label="Repurposed & Upcycled"
+              />
+            </CategoryItem>
+          </CategoryItem>
         </ul>
       </div>
     </Box>
