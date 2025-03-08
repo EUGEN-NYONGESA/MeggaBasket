@@ -21,7 +21,7 @@ const CategoryPanel = (props) => {
   };
 
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" className="categoryPanel">
+    <Box sx={{ width: 300 }} role="presentation" className="categoryPanel">
       <h3 className="p-3 text-[15px] font-[500] flex justify-between items-center">
         Shop By Categories
         <IoCloseSharp
@@ -1155,6 +1155,1219 @@ const CategoryPanel = (props) => {
               <SubCategoryItem
                 to="/repurposed-upcycled"
                 label="Repurposed & Upcycled"
+              />
+            </CategoryItem>
+          </CategoryItem>
+
+          <CategoryItem
+            index={60}
+            label="Fashion"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Men’s Fashion */}
+            <CategoryItem
+              index={61}
+              label="Men’s Fashion"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              {/* Clothing */}
+              <CategoryItem
+                index={611}
+                label="Clothing"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/mens-t-shirts-polos"
+                  label="T-Shirts & Polos"
+                />
+                <SubCategoryItem
+                  to="/mens-shirts"
+                  label="Shirts (Casual, Formal)"
+                />
+                <SubCategoryItem
+                  to="/mens-hoodies-sweatshirts"
+                  label="Hoodies & Sweatshirts"
+                />
+                <SubCategoryItem
+                  to="/mens-jackets-coats"
+                  label="Jackets & Coats"
+                />
+                <SubCategoryItem
+                  to="/mens-suits-blazers"
+                  label="Suits & Blazers"
+                />
+                <SubCategoryItem
+                  to="/mens-sweaters-cardigans"
+                  label="Sweaters & Cardigans"
+                />
+                <SubCategoryItem to="/mens-jeans-denim" label="Jeans & Denim" />
+                <SubCategoryItem
+                  to="/mens-trousers-chinos"
+                  label="Trousers & Chinos"
+                />
+                <SubCategoryItem
+                  to="/mens-shorts-cargo-pants"
+                  label="Shorts & Cargo Pants"
+                />
+                <SubCategoryItem to="/mens-innerwear" label="Innerwear" />
+                <SubCategoryItem to="/mens-ethnic-wear" label="Ethnic Wear" />
+                <SubCategoryItem
+                  to="/mens-sleepwear-loungewear"
+                  label="Sleepwear/Loungewear"
+                />
+              </CategoryItem>
+
+              {/* Footwear */}
+              <CategoryItem
+                index={612}
+                label="Footwear"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem to="/mens-casual-shoes" label="Casual Shoes" />
+                <SubCategoryItem to="/mens-formal-shoes" label="Formal Shoes" />
+                <SubCategoryItem
+                  to="/mens-sandals-slippers"
+                  label="Sandals & Slippers"
+                />
+                <SubCategoryItem
+                  to="/mens-sports-shoes-trainers"
+                  label="Sports Shoes/Trainers"
+                />
+                <SubCategoryItem to="/mens-boots" label="Boots" />
+              </CategoryItem>
+
+              {/* Accessories */}
+              <CategoryItem
+                index={613}
+                label="Accessories"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem to="/mens-watches" label="Watches" />
+                <SubCategoryItem to="/mens-smartwatches" label="Smartwatches" />
+                <SubCategoryItem
+                  to="/mens-sunglasses-eyewear"
+                  label="Sunglasses & Eyewear"
+                />
+                <SubCategoryItem to="/mens-caps-hats" label="Caps & Hats" />
+                <SubCategoryItem
+                  to="/mens-belts-wallets"
+                  label="Belts & Wallets"
+                />
+                <SubCategoryItem
+                  to="/mens-cufflinks-tie-clips"
+                  label="Cufflinks & Tie Clips"
+                />
+                <SubCategoryItem
+                  to="/mens-socks-gloves"
+                  label="Socks & Gloves"
+                />
+                <SubCategoryItem
+                  to="/mens-bags-backpacks"
+                  label="Bags & Backpacks"
+                />
+              </CategoryItem>
+
+              {/* Sportswear & Activewear */}
+              <CategoryItem
+                index={614}
+                label="Sportswear/Activewear"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem to="/mens-gym-wear" label="Gym Wear" />
+                <SubCategoryItem
+                  to="/mens-running-shoes-sneakers"
+                  label="Running Shoes"
+                />
+                <SubCategoryItem
+                  to="/mens-tracksuits-sports-jackets"
+                  label="Tracksuits/Jackets"
+                />
+                <SubCategoryItem
+                  to="/mens-swimwear-beachwear"
+                  label="Swimwear/Beachwear"
+                />
+                <SubCategoryItem
+                  to="/mens-compression-wear"
+                  label="Compression Wear"
+                />
+              </CategoryItem>
+            </CategoryItem>
+
+            {/* Women’s Fashion */}
+            <CategoryItem
+              index={62}
+              label="Women’s Fashion"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              {/* Clothing */}
+              <CategoryItem
+                index={621}
+                label="Clothing"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/womens-tops-t-shirts"
+                  label="Tops & T-Shirts"
+                />
+                <SubCategoryItem
+                  to="/womens-blouses-shirts"
+                  label="Blouses & Shirts"
+                />
+                <SubCategoryItem
+                  to="/womens-dresses-jumpsuits"
+                  label="Dresses & Jumpsuits"
+                />
+                <SubCategoryItem
+                  to="/womens-jeans-denim"
+                  label="Jeans & Denim"
+                />
+                <SubCategoryItem
+                  to="/womens-trousers-leggings"
+                  label="Trousers & Leggings"
+                />
+                <SubCategoryItem
+                  to="/womens-skirts-shorts"
+                  label="Skirts & Shorts"
+                />
+                <SubCategoryItem
+                  to="/womens-coats-jackets"
+                  label="Coats & Jackets"
+                />
+                <SubCategoryItem
+                  to="/womens-sweaters-cardigans"
+                  label="Sweaters & Cardigans"
+                />
+                <SubCategoryItem
+                  to="/womens-lingerie-sleepwear"
+                  label="Lingerie & Sleepwear"
+                />
+                <SubCategoryItem to="/womens-ethnic-wear" label="Ethnic Wear" />
+              </CategoryItem>
+
+              {/* Footwear */}
+              <CategoryItem
+                index={622}
+                label="Footwear"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/womens-heels-pumps"
+                  label="Heels & Pumps"
+                />
+                <SubCategoryItem
+                  to="/womens-sports-shoes"
+                  label="Sports Shoes"
+                />
+                <SubCategoryItem
+                  to="/womens-sandals-flip-flops"
+                  label="Sandals & Flip-Flops"
+                />
+                <SubCategoryItem
+                  to="/womens-boots-winter"
+                  label="Boots & Winter"
+                />
+                <SubCategoryItem
+                  to="/womens-ethnic-footwear"
+                  label="Ethnic Footwear"
+                />
+              </CategoryItem>
+
+              {/* Accessories */}
+              <CategoryItem
+                index={623}
+                label="Accessories"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/womens-handbags-clutches"
+                  label="Handbags & Clutches"
+                />
+                <SubCategoryItem to="/womens-jewelry" label="Jewelry" />
+                <SubCategoryItem
+                  to="/womens-sunglasses-eyewear"
+                  label="Sunglasses & Eyewear"
+                />
+                <SubCategoryItem to="/womens-watches" label="Watches" />
+                <SubCategoryItem
+                  to="/womens-smartwatches"
+                  label="Smartwatches"
+                />
+                <SubCategoryItem
+                  to="/womens-scarves-stoles"
+                  label="Scarves & Stoles"
+                />
+                <SubCategoryItem
+                  to="/womens-hats-headbands"
+                  label="Hats & Headbands"
+                />
+                <SubCategoryItem
+                  to="/womens-belts-wallets"
+                  label="Belts & Wallets"
+                />
+              </CategoryItem>
+
+              {/* Sportswear & Activewear */}
+              <CategoryItem
+                index={624}
+                label="Sportswear/Activewear"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/womens-yoga-pants-leggings"
+                  label="Yoga Pants & Leggings"
+                />
+                <SubCategoryItem to="/womens-sports-bras" label="Sports Bras" />
+                <SubCategoryItem to="/crop-tops" label="Crop Tops" />
+                <SubCategoryItem to="/womens-gym-shorts" label="Gym Shorts" />
+                <SubCategoryItem to="/running-shoes" label="Running Shoes" />
+                <SubCategoryItem to="/womens-swimwear" label="Swimwear" />
+                <SubCategoryItem
+                  to="/womens-tracksuits-jackets"
+                  label="Tracksuits & Jackets"
+                />
+              </CategoryItem>
+            </CategoryItem>
+
+            {/* Kids’ Fashion */}
+            <CategoryItem
+              index={63}
+              label="Kids’ Fashion"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              {/* Clothing */}
+              <CategoryItem
+                index={631}
+                label="Clothing"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/kids-t-shirts-tops"
+                  label="T-Shirts & Tops"
+                />
+                <SubCategoryItem
+                  to="/kids-dresses-frocks"
+                  label="Dresses & Frocks"
+                />
+                <SubCategoryItem
+                  to="/kids-jeans-joggers"
+                  label="Jeans & Joggers"
+                />
+                <SubCategoryItem
+                  to="/kids-shorts-skirts"
+                  label="Shorts & Skirts"
+                />
+                <SubCategoryItem
+                  to="/kids-hoodies-sweatshirts"
+                  label="Hoodies & Sweatshirts"
+                />
+                <SubCategoryItem
+                  to="/kids-jackets-coats"
+                  label="Jackets & Coats"
+                />
+                <SubCategoryItem
+                  to="/kids-pajamas-sleepwear"
+                  label="Pajamas & Sleepwear"
+                />
+                <SubCategoryItem
+                  to="/school-uniforms"
+                  label="School Uniforms"
+                />
+              </CategoryItem>
+
+              {/* Footwear */}
+              <CategoryItem
+                index={632}
+                label="Footwear"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem to="/running-shoes" label="Running Shoes" />
+                <SubCategoryItem
+                  to="/kids-dresses-frocks"
+                  label="Dresses & Frocks"
+                />
+                <SubCategoryItem
+                  to="/sandals-flip-flops"
+                  label="Sandals & Flip-Flops"
+                />
+                <SubCategoryItem to="/formal-shoes" label="Formal Shoes" />
+                <SubCategoryItem
+                  to="/boots-rainwear"
+                  label="Boots & Rainwear"
+                />
+              </CategoryItem>
+
+              {/* Accessories */}
+              <CategoryItem
+                index={633}
+                label="Accessories"
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem to="/backpacks" label="Backpacks" />
+                <SubCategoryItem to="/hats-caps" label="Hats & Caps" />
+                <SubCategoryItem to="/sunglasses" label="Sunglasses" />
+                <SubCategoryItem to="/watchess" label="Sunglasses & Watches" />
+                <SubCategoryItem to="/socks-gloves" label="Socks & Gloves" />
+              </CategoryItem>
+
+              {/* Sportswear/Activewear */}
+              <CategoryItem
+                index={634}
+                label="Sportswear/Activewear "
+                openSubmenus={openSubmenus}
+                toggleSubmenu={toggleSubmenu}
+              >
+                <SubCategoryItem
+                  to="/kids-sports-jerseys"
+                  label="Sports Jerseys"
+                />
+                <SubCategoryItem
+                  to="/kids-swimwear-beachwear"
+                  label="Swimwear/Beachwear
+"
+                />
+                <SubCategoryItem to="/gym-wear" label="gym-wear" />
+                <SubCategoryItem to="/tracksuits" label="tracksuits" />
+                <SubCategoryItem to="/sports-shoes" label="Sports Shoes" />
+              </CategoryItem>
+            </CategoryItem>
+          </CategoryItem>
+
+          {/* Liquor Category */}
+          <CategoryItem
+            index={636}
+            label="Liquor"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Spirits & Hard Liquor */}
+            <CategoryItem
+              index={637}
+              label="Spirits/Hard Liquor"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/whiskey" label="Whiskey" />
+              <SubCategoryItem to="/vodka " label="Vodka" />
+              <SubCategoryItem to="/rum" label="Rum" />
+              <SubCategoryItem to="/gin" label="Gin" />
+              <SubCategoryItem to="/tequila-mezcal" label="Tequila & Mezcal" />
+              <SubCategoryItem to="/brandy-cognac" label="Brandy & Cognac" />
+              <SubCategoryItem to="/Absinthe" label="Absinthe" />
+              <SubCategoryItem to="/liqueurs" label="Liqueurs" />
+            </CategoryItem>
+
+            <CategoryItem
+              index={638}
+              label="Wine"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/red-wine" label="Red Wine" />
+              <SubCategoryItem to="/white-wine" label="White Wine" />
+              <SubCategoryItem to="/rosé-wine" label="Rosé Wine" />
+              <SubCategoryItem to="/Champagne" label="Champagne" />
+              <SubCategoryItem to="/sparkling-wine" label="Sparkling Wine" />
+              <SubCategoryItem
+                to="/dessert-sweet Wines"
+                label="Dessert & Sweet Wines"
+              />
+              <SubCategoryItem to="/fortified-wines" label="Fortified Wines" />
+            </CategoryItem>
+
+            <CategoryItem
+              index={639}
+              label="Beer & Ciders"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/lager " label="Lager" />
+              <SubCategoryItem to="/ale" label="Ale" />
+              <SubCategoryItem to="/stout-porter" label="Stout & Porter" />
+              <SubCategoryItem to="/wheat-beer" label="Wheat Beer" />
+              <SubCategoryItem
+                to="/craft-specialty-beers"
+                label="Craft & Specialty Beers"
+              />
+              <SubCategoryItem to="/hard-ciders" label="Hard Ciders" />
+            </CategoryItem>
+
+            <CategoryItem
+              index={640}
+              label="Cocktails & Ready Drinks"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/pre-mixed-cocktails"
+                label="Pre-Mixed Cocktails"
+              />
+              <SubCategoryItem
+                to="/alcoholic-energy-drinks"
+                label="Alcoholic Energy Drinks"
+              />
+              <SubCategoryItem to="/hard-seltzers" label="Hard Seltzers" />
+              <SubCategoryItem
+                to="/wine-Coolers-spritzers"
+                label="Wine Coolers & Spritzers"
+              />
+            </CategoryItem>
+
+            <CategoryItem
+              index={641}
+              label="Non-Alcoholic & Mixers"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/non-alcoholic-beer-wine"
+                label="Beer & Wine"
+              />
+              <SubCategoryItem
+                to="/tonic-water-soda"
+                label="Tonic Water & Soda"
+              />
+              <SubCategoryItem
+                to="/cocktail-syrups-bitters"
+                label="Cocktail Syrups & Bitters"
+              />
+              <SubCategoryItem
+                to="/fruit-juices-for-mixing"
+                label="Fruit Juices for Mixing"
+              />
+              <SubCategoryItem to="/ice-garnishes" label="Ice & Garnishes" />
+            </CategoryItem>
+          </CategoryItem>
+
+          {/* Pharmacy */}
+          <CategoryItem
+            index={642}
+            label="Pharmacy"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Prescription Medications */}
+            <CategoryItem
+              index={643}
+              label="Prescription Medications"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/antibiotics" label="Antibiotics" />
+              <SubCategoryItem to="/pain-relievers" label="Pain Relievers" />
+              <SubCategoryItem
+                to="/anti-inflammatories"
+                label="Anti-Inflammatories"
+              />
+              <SubCategoryItem
+                to="/antidepressants-anxiety "
+                label="Antidepressants & Anxiety "
+              />
+              <SubCategoryItem
+                to="/blood-pressure-Heart"
+                label="Blood Pressure & Heart"
+              />
+              <SubCategoryItem
+                to="/diabetes-management"
+                label="Diabetes Management"
+              />
+              <SubCategoryItem to="/allergy-asthma" label="Allergy & Asthma" />
+              <SubCategoryItem
+                to="/cholesterol-control"
+                label="Cholesterol Control"
+              />
+              <SubCategoryItem
+                to="/thyroid-medications"
+                label="Thyroid Medications"
+              />
+              <SubCategoryItem
+                to="/hormonal-birth-control"
+                label="Hormonal & Birth Control"
+              />
+              <SubCategoryItem
+                to="/gastrointestinal"
+                label="Gastrointestinal"
+              />
+            </CategoryItem>
+
+            {/* Over-the-Counter Medicines */}
+            <CategoryItem
+              index={644}
+              label="Over-the-Counter"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/Over-the-Counter-pain-relief"
+                label="Pain Relief"
+              />
+              <SubCategoryItem to="/cold-Flu" label="Cold & Flu" />
+              <SubCategoryItem
+                to="/cough-suppressants"
+                label="Cough Suppressants"
+              />
+              <SubCategoryItem to="/expectorants" label="Expectorants" />
+              <SubCategoryItem
+                to="/antihistamines-allergy"
+                label="Antihistamines/Allergy"
+              />
+              <SubCategoryItem
+                to="/blood-pressure-Heart"
+                label="Blood Pressure & Heart"
+              />
+              <SubCategoryItem
+                to="/digestive-health"
+                label="Digestive Health"
+              />
+              <SubCategoryItem
+                to="/sleep-aids-relaxation"
+                label="Sleep Aids & Relaxation"
+              />
+              <SubCategoryItem
+                to="/motion-sicknes-travel"
+                label="Motion Sickness & Travel"
+              />
+              <SubCategoryItem
+                to="/ear-eye-nose-care"
+                label="Ear, Eye & Nose Care"
+              />
+            </CategoryItem>
+
+            {/* Over-the-Counter Medicines */}
+            <CategoryItem
+              index={645}
+              label="Vitamins & Supplements"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/uultivitamins" label="Multivitamins" />
+              <SubCategoryItem to="/immune-boosters" label="Immune Boosters" />
+              <SubCategoryItem
+                to="/cough-suppressants"
+                label="Cough Suppressants"
+              />
+              <SubCategoryItem
+                to="/bone-joint-health"
+                label="Bone & Joint Health"
+              />
+              <SubCategoryItem
+                to="/digestive-health"
+                label="Digestive Health"
+              />
+              <SubCategoryItem
+                to="/herbal-supplements"
+                label="Herbal Supplements"
+              />
+              <SubCategoryItem to="/protein-powders" label="Protein Powders" />
+              <SubCategoryItem
+                to="/meal-replacements"
+                label="Meal Replacements"
+              />
+              <SubCategoryItem
+                to="/energy-brain-health"
+                label="Energy & Brain Health"
+              />
+              <SubCategoryItem to="/fat-burners" label="Fat Burners" />
+            </CategoryItem>
+
+            {/* Personal Hygiene */}
+            <CategoryItem
+              index={646}
+              label="Personal Hygiene"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/skin-care" label="Skin Care" />
+              <SubCategoryItem to="/hair-care" label="Hair Care" />
+              <SubCategoryItem to="/oral-care" label="Oral Care" />
+              <SubCategoryItem
+                to="/feminine-hygiene"
+                label="Feminine Hygiene"
+              />
+              <SubCategoryItem to="/mens-grooming" label="Men's Grooming" />
+              <SubCategoryItem
+                to="/deodorants-antiperspirants"
+                label="Deodorants/Antiperspirants"
+              />
+              <SubCategoryItem to="/bath-body-care" label="Bath & Body Care" />
+            </CategoryItem>
+
+            {/* Personal Hygiene */}
+            <CategoryItem
+              index={647}
+              label="Baby & Child Care"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/baby-formula" label="Infant Formula" />
+              <SubCategoryItem to="/baby-skincare" label="Baby Skincare" />
+              <SubCategoryItem to="/Colic-drops" label="Colic Drops" />
+              <SubCategoryItem to="/teething-relief" label="Teething Relief" />
+              <SubCategoryItem
+                to="/baby-diapers-wipes"
+                label="Baby Diapers & Wipes"
+              />
+              <SubCategoryItem
+                to="/childrens-cold-flu"
+                label="Children's Cold, Flu"
+              />
+              <SubCategoryItem to="/kids-pain-relief" label="Pain Relief" />
+            </CategoryItem>
+
+            {/* First Aid & Wound Care */}
+            <CategoryItem
+              index={648}
+              label="First Aid & Wound Care"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/bandages-gauze" label="Bandages/Gauze" />
+              <SubCategoryItem
+                to="/antiseptic-creams-sprays"
+                label="Antiseptic Creams/Sprays"
+              />
+              <SubCategoryItem to="/thermometers" label="thermometers" />
+              <SubCategoryItem to="/fever-strips" label="Fever Strips" />
+              <SubCategoryItem to="/burn-relief" label="Burn Relief" />
+              <SubCategoryItem to="/wound-ointments" label="Wound Ointments" />
+              <SubCategoryItem
+                to="/pain-relief-sprays"
+                label="Pain Relief Sprays"
+              />
+              <SubCategoryItem to="/muscle-rubs" label="Muscle Rubs" />
+              <SubCategoryItem
+                to="/eye-wash-eye-drops"
+                label="Eye Wash & Drops"
+              />
+            </CategoryItem>
+
+            {/* Medical Equipment & Supplies */}
+            <CategoryItem
+              index={649}
+              label="Medical Equipment"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/blood-pressure-monitors"
+                label="Blood Pressure Monitors"
+              />
+              <SubCategoryItem
+                to="/glucometers-diabetes-kits"
+                label="Glucometers/Diabetes Kits"
+              />
+              <SubCategoryItem
+                to="/nebulizers-breathing-aids"
+                label="Nebulizers/Breathing Aids"
+              />
+              <SubCategoryItem to="/mobility-aids" label="Mobility Aids" />
+              <SubCategoryItem
+                to="/surgical-gloves-masks"
+                label="Surgical Gloves & Masks"
+              />
+              <SubCategoryItem to="/disinfectants" label="Disinfectants" />
+              <SubCategoryItem to="/hot-cold-packs" label="Hot & Cold Packs" />
+            </CategoryItem>
+
+            {/* Family Planning */}
+            <CategoryItem
+              index={650}
+              label="Family Planning"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/condoms-lubricants"
+                label="Condoms & Lubricants"
+              />
+              <SubCategoryItem
+                to="/birth-control-contraceptives"
+                label="Birth Control/Contraceptive"
+              />
+              <SubCategoryItem
+                to="/fertility-supplements"
+                label="Fertility Supplements"
+              />
+              <SubCategoryItem
+                to="/sex-toys-vibrators"
+                label="Sex Toys & Vibrators"
+              />
+            </CategoryItem>
+
+            {/* Mental Health & Wellness */}
+            <CategoryItem
+              index={651}
+              label="Mental Health & Wellness"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/stress-relief" label="Mood Enhancers" />
+              <SubCategoryItem
+                to="/focus-memory-boosters"
+                label="Focus & Memory Boosters"
+              />
+              <SubCategoryItem
+                to="/sleep-aids-melatonin"
+                label="Sleep Aids & Melatonin"
+              />
+              <SubCategoryItem
+                to="/meditation-aromatherapy-oils"
+                label="Meditation & Aromatherapy Oils"
+              />
+            </CategoryItem>
+
+            {/* Herbal Medicine */}
+            <CategoryItem
+              index={652}
+              label="Herbal Medicine"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/homeopathy-remedies"
+                label="Homeopathy Remedies"
+              />
+              <SubCategoryItem
+                to="/ayurveda-remedies"
+                label="Ayurveda Remedies"
+              />
+              <SubCategoryItem
+                to="/traditional-chinese-medicine"
+                label="Traditional Chinese Medicine"
+              />
+              <SubCategoryItem to="/Essential Oils" label="Aromatherapy" />
+              <SubCategoryItem
+                to="/cbd-hemp-based-products"
+                label="CBD & Hemp-Based Products"
+              />
+            </CategoryItem>
+          </CategoryItem>
+
+          {/* Garage Category */}
+          <CategoryItem
+            index={653}
+            label="Garage"
+            openSubmenus={openSubmenus}
+            toggleSubmenu={toggleSubmenu}
+          >
+            {/* Engine & Performance */}
+            <CategoryItem
+              index={654}
+              label="Engine & Performance Parts"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/engine-oil-lubricants"
+                label="Engine Oil & Lubricants"
+              />
+              <SubCategoryItem
+                to="/air-fuel-filters"
+                label="Air & Fuel Filters"
+              />
+              <SubCategoryItem
+                to="/spark-plugs-ignition-coils"
+                label="Spark Plugs & Ignition Coils"
+              />
+              <SubCategoryItem
+                to="/timing-belts-chains"
+                label="Timing Belts & Chains"
+              />
+              <SubCategoryItem
+                to="/piston-rings-cylinder-heads"
+                label="Piston Rings & Cylinder Heads"
+              />
+              <SubCategoryItem
+                to="/turbochargers-superchargers"
+                label="Turbochargers & Superchargers"
+              />
+              <SubCategoryItem
+                to="/oil-pumps-fuel-pumps"
+                label="Oil Pumps & Fuel Pumps"
+              />
+              <SubCategoryItem
+                to="/radiators-cooling-systems"
+                label="Radiators & Cooling Systems"
+              />
+            </CategoryItem>
+
+            {/* Suspension & Steering */}
+            <CategoryItem
+              index={655}
+              label="Suspension & Steering"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/Shock Absorbers & Struts"
+                label="Shock Absorbers & Struts"
+              />
+              <SubCategoryItem
+                to="/Ball Joints & Control Arm"
+                label="Ball Joints & Control Arm"
+              />
+              <SubCategoryItem
+                to="/Power Steering Pumps & Fluid"
+                label="Power Steering Pumps & Fluid"
+              />
+              <SubCategoryItem
+                to="/Steering Racks & Tie Rods"
+                label="Steering Racks & Tie Rods"
+              />
+              <SubCategoryItem
+                to="/Wheel Bearings & Hub Assemblies"
+                label="Wheel Bearings & Hub Assemblies"
+              />
+            </CategoryItem>
+
+            {/* Brakes & Clutch */}
+            <CategoryItem
+              index={656}
+              label="Brakes & Clutch"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/brake-pads-brake-discs"
+                label="Brake Pads & Brake Discs"
+              />
+              <SubCategoryItem
+                to="/brake-calipers-brake-lines"
+                label="Brake Calipers & Brake Lines"
+              />
+              <SubCategoryItem
+                to="/master-cylinders-brake-fluid"
+                label="Master Cylinders & Brake Fluid"
+              />
+              <SubCategoryItem
+                to="/clutch=kits-flywheels"
+                label="Clutch Kits & Flywheels"
+              />
+              <SubCategoryItem
+                to="/handbrake-cables-components"
+                label="Handbrake Cables & Components"
+              />
+            </CategoryItem>
+
+            {/* Electrical & Lighting */}
+            <CategoryItem
+              index={657}
+              label="Electrical & Lighting"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/car-batteries-chargers"
+                label="Car Batteries & Chargers"
+              />
+              <SubCategoryItem
+                to="/alternators-starters"
+                label="Alternators & Starters"
+              />
+              <SubCategoryItem
+                to="/headlights-tail-fog-lights"
+                label="Headlights, Tail & Fog Lights"
+              />
+              <SubCategoryItem
+                to="/wiper-motors-blades"
+                label="Wiper Motors & Blades"
+              />
+              <SubCategoryItem
+                to="/fuse-boxes-wiring-harnesses"
+                label="Fuse Boxes & Wiring Harnesses"
+              />
+            </CategoryItem>
+
+            {/* Body Parts & Exterior */}
+            <CategoryItem
+              index={658}
+              label="Body Parts & Exterior"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/bumpers-fenders"
+                label="Bumpers & Fenders"
+              />
+              <SubCategoryItem
+                to="/car-doors-handles"
+                label="Car Doors & Handles"
+              />
+              <SubCategoryItem
+                to="/side-mirrors-rearview-mirrors"
+                label="Side Mirrors & Rearview Mirrors"
+              />
+              <SubCategoryItem
+                to="/windscreens-wiper-blades"
+                label="Windscreens & Wiper Blades"
+              />
+              <SubCategoryItem
+                to="/mud-flaps-spoilers"
+                label="Mud Flaps & Spoilers"
+              />
+            </CategoryItem>
+
+            {/* Wheels & Tyres */}
+            <CategoryItem
+              index={659}
+              label="Wheels & Tyres"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem to="/Car Tyres" label="Car Tyres" />
+              <SubCategoryItem
+                to="/alloy-steel-rims"
+                label="Alloy & Steel Rims"
+              />
+              <SubCategoryItem
+                to="/wheel-nuts-bolts"
+                label="Wheel Nuts & Bolts"
+              />
+              <SubCategoryItem
+                to="/wheel-alignment-balancing-kits"
+                label="Wheel Alignment/Balancing Kits"
+              />
+              <SubCategoryItem
+                to="/tire-inflators-pressure-gauges"
+                label="Tire Inflators/Pressure Gauges"
+              />
+            </CategoryItem>
+
+            {/* Exhaust & Emissions */}
+            <CategoryItem
+              index={660}
+              label="Exhaust & Emissions"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/exhaust-pipes-mufflers"
+                label="Exhaust Pipes & Mufflers"
+              />
+              <SubCategoryItem
+                to="/catalytic-converters"
+                label="Catalytic Converters"
+              />
+              <SubCategoryItem
+                to="/oxygen-sensors-egr-valves"
+                label="Oxygen Sensors & EGR Valves"
+              />
+              <SubCategoryItem
+                to="/exhaust-gaskets-manifolds"
+                label="Exhaust Gaskets & Manifolds"
+              />
+            </CategoryItem>
+
+            {/* Transmission & Drivetrain */}
+            <CategoryItem
+              index={661}
+              label="Transmission & Drivetrain"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/gearboxes-transmission-fluids"
+                label="Gearboxes & Transmission Fluids"
+              />
+              <SubCategoryItem
+                to="/drive-shafts-cv-joints"
+                label="Drive Shafts & CV Joints"
+              />
+              <SubCategoryItem
+                to="/differentials-axles"
+                label="Differentials & Axles"
+              />
+              <SubCategoryItem
+                to="/transmission-mounts-bearings"
+                label="Transmission Mounts & Bearings"
+              />
+            </CategoryItem>
+
+            {/* Transmission & Drivetrain */}
+            <CategoryItem
+              index={661}
+              label="Transmission & Drivetrain"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/gearboxes-transmission-fluids"
+                label="Gearboxes & Transmission Fluids"
+              />
+              <SubCategoryItem
+                to="/drive-shafts-cv-joints"
+                label="Drive Shafts & CV Joints"
+              />
+              <SubCategoryItem
+                to="/differentials-axles"
+                label="Differentials & Axles"
+              />
+              <SubCategoryItem
+                to="/transmission-mounts-bearings"
+                label="Transmission Mounts & Bearings"
+              />
+            </CategoryItem>
+
+            {/* Interior Accessories */}
+            <CategoryItem
+              index={662}
+              label="Interior Accessories"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/car-seat-covers-floor-mats"
+                label="Car Seat Covers & Floor Mats"
+              />
+              <SubCategoryItem
+                to="/dashboard-covers-steering-wheel-covers"
+                label="Dashboard,Steering, Wheel Covers"
+              />
+              <SubCategoryItem
+                to="/sunshades-window-tints"
+                label="Sunshades & Window Tints"
+              />
+              <SubCategoryItem
+                to="/car-air-fresheners"
+                label="Car Air Fresheners"
+              />
+              <SubCategoryItem
+                to="/sound-systems-speakers"
+                label="Sound Systems & Speakers"
+              />
+            </CategoryItem>
+
+            {/* Car Security & Safety */}
+            <CategoryItem
+              index={663}
+              label="Car Security & Safety"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/car-alarms-immobilizers"
+                label="Car Alarms & Immobilizers"
+              />
+              <SubCategoryItem
+                to="/gps-trackers-anti-theft-locks"
+                label="GPS Trackers/Anti-Theft Locks"
+              />
+              <SubCategoryItem
+                to="/fire-extinguishers-first-aid-kits"
+                label="Fire Extinguishers/First Aid Kits"
+              />
+              <SubCategoryItem
+                to="/dash-cameras-parking-sensors"
+                label="Dash Cameras & Parking Sensors"
+              />
+              <SubCategoryItem to="/emergency-tools" label="Emergency Tools" />
+            </CategoryItem>
+
+            {/* Tools & Garage Equipment */}
+            <CategoryItem
+              index={664}
+              label="Tools & Garage Equipment"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/wrenches-screwdrivers"
+                label="Wrenches/Screwdrivers"
+              />
+              <SubCategoryItem to="/socket-sets" label="Socket Sets" />
+              <SubCategoryItem
+                to="/torque-trenches-impact-guns"
+                label="Torque Wrenches/Impact Guns"
+              />
+              <SubCategoryItem
+                to="/diagnostic-scanners"
+                label="Diagnostic Scanners"
+              />
+              <SubCategoryItem to="/code-readers" label="Code Readers" />
+              <SubCategoryItem
+                to="/battery-testers-jump-starters"
+                label="Battery Testers & Jump Starters"
+              />
+              <SubCategoryItem to="/engine-hoists" label="Engine Hoists" />
+              <SubCategoryItem
+                to="/lifting-equipment"
+                label="Lifting Equipment"
+              />
+            </CategoryItem>
+
+            {/* Fluids & Maintenance */}
+            <CategoryItem
+              index={665}
+              label="fluids-maintenance"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/engine-oil-coolant"
+                label="Engine Oil & Coolant"
+              />
+              <SubCategoryItem
+                to="/transmission-fluid-brake-fluid"
+                label="Transmission Fluid & Brake Fluid"
+              />
+              <SubCategoryItem
+                to="/windshield-washer-fluid"
+                label="Windshield Washer Fluid"
+              />
+              <SubCategoryItem
+                to="/rust-removers-protectants"
+                label="Rust Removers & Protectants"
+              />
+              <SubCategoryItem
+                to="/car-wax-polishing-products"
+                label="Car Wax & Polishing Products"
+              />
+            </CategoryItem>
+
+            {/* Motorcycle & Bike Parts */}
+            <CategoryItem
+              index={666}
+              label="Motorcycle & Bikes"
+              openSubmenus={openSubmenus}
+              toggleSubmenu={toggleSubmenu}
+            >
+              <SubCategoryItem
+                to="/motorcycle-tires-tubes"
+                label="Motorcycle Tires & Tubes"
+              />
+              <SubCategoryItem
+                to="/bike-chains-sprockets"
+                label="Bike Chains & Sprockets"
+              />
+              <SubCategoryItem
+                to="/handlebars-grips"
+                label="Handlebars & Grips"
+              />
+              <SubCategoryItem
+                to="/handlebars-grips"
+                label="Handlebars & Grips"
+              />
+              <SubCategoryItem
+                to="/helmets-riding-gea"
+                label="Helmets & Riding Gea"
+              />
+              <SubCategoryItem
+                to="/brake-clutch-levers"
+                label="Brake & Clutch Levers"
               />
             </CategoryItem>
           </CategoryItem>
